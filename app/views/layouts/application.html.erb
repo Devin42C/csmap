@@ -1,15 +1,13 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Csmap</title>
-    <%= csrf_meta_tags %>
-    <%= csp_meta_tag %>
-
-    <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
-    <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+    <div class ="col-12">
+        <!-- Button trigger modal -->
+      <%= link_to 'Add New Map Here', new_map_path %>
+    </div>
   </head>
-
   <body>
+  </body>
     <%= yield %>
   </body>
 </html>

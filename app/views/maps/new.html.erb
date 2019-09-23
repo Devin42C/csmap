@@ -1,0 +1,8 @@
+<div class="booyah-box">
+  <h1>Enter Your Map Photos Here<h2>
+  <%= simple_form_for @map do |f| %>
+    <%= f.input :name %>
+    <br />
+    <%= f.submit 'Create', class: 'btn btn-primary' %>
+  <% end %>
+</div>
